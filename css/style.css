@@ -56,8 +56,8 @@ header{
 img.imglogo {
     margin: auto;
     max-width: 150px;
-    border-radius: 75px;
-    border: 2px solid #fff;
+    /*border-radius: 75px;*/
+    /*border: 2px solid #fff;*/
 }
 
 .topname {
@@ -80,7 +80,6 @@ img.imglogo {
  /***** hero *****/
  .hero {
      max-width: 100%;
-     margin-top: 5px;
      position: relative;
  }
 
@@ -209,6 +208,10 @@ footer {
         display: none;
     }
 
+     p > span {
+        display: none;
+    }
+
     .work{
         border: 1px solid #ccc;
         margin-bottom: 5px;
@@ -270,5 +273,11 @@ footer {
 
     .showcase div.work img{
         width: 100%;
+    }
+
+    .hero article {
+        margin-left: 50%;
+        margin-bottom: 10%;
+        overflow: hidden;
     }
 }
