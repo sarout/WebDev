@@ -105,6 +105,7 @@ img.imglogo {
 .hero article p {
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
+    text-align: center;
 }
  /*.welcome {
      padding: 10px;
@@ -118,10 +119,16 @@ img.imglogo {
 
  .work p {
      padding: 5px;
+     text-align: center;
  }
 
  .work h4{
      padding: 5px;
+     text-align: center;
+ }
+
+ .work:hover{
+     border:2px solid #ccc;
  }
 
 footer {
@@ -250,7 +257,7 @@ footer {
     }
 
     .work p {
-        width: 50%;
+        width: 100%;
     }
     .showcase div.work img{
         width: 100%;
@@ -279,5 +286,12 @@ footer {
         margin-left: 50%;
         margin-bottom: 10%;
         overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    .hero article {
+        margin-bottom: 10px;
+        max-height: 90%;
     }
 }
