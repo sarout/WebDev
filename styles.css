@@ -1,0 +1,58 @@
+/* add your CSS here */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 320px;
+    margin: 0 auto;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.container {
+    border: 5px solid #f1f1f1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    width: 320px;
+    -webkit-box-shadow: -2px 2px 32px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 32px -2px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 32px -2px rgba(0,0,0,0.75);
+}
+
+.container h3 {
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-details {
+    border: 2px solid #f1f1f1;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.card-details ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.animal-info {
+    font-weight: bold;
+}
+
+.facts {
+    font-style: italic;
+    text-align: justify;
+    font-size: .8em;
+}
+
+.more-info {
+    font-size: .85em;
+}
